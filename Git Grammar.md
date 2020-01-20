@@ -28,8 +28,10 @@
 + git merge <分支名称>  //在master路径的前提下，合并分支
 
 ## 下
+
 + 将本地仓库存到远程仓库GitHub中需要
 例子：git remote add origin https://github.com/Davis-Samuel/Git-Grammar.git
 git push -u origin master
 如果已经建立了连接，则直接git push -u origin master
+(注意要是用HTTPS)
 
