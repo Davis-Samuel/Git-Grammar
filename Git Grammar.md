@@ -35,4 +35,5 @@ git push -u origin master
 如果已经建立了连接，则直接git push -u origin master
 (注意要是用HTTPS)
 + 如果仓库名字与你的名字相同，则仓库名字可以直接作为一个服务器去进行浏览器访问
++ [fork别人的仓库放到自己新建的仓库，修改提交，并pull变为原来的仓库](https://blog.csdn.net/xc_zhou/article/details/87984242)
 
