@@ -15,7 +15,7 @@
 + git add .  //将全部文件添加进缓存区
 + git rm --catch <文件名>  //删除当前文件
 + git add *.html  //添加某一类文件，如其后缀名为 .html 的文件
-+
++ git remote rm origin //切断远程连接
 
 ## 中
 
@@ -23,7 +23,7 @@
 + git branch <分支名称>  //创建一个分支
 + git checkout <分支名称>  //从master切换到分支中去。
 + '当在分支路径上时，文档中会显示master的文档内容和分支的文档内容，如果checkout回master时，那么分支中文档内容就不见了。那么此时就需要合并分支，将master和分支合并就可以看到双方共同的文档及内容了。当在分支路径时，对master中的文件进行修改，如果checkout切换回master，则修改不起作用。所以在分支中的修改对master中文档内容是不影响的。'
-+ git checkout -b <分支名称>  //创建d分支并直接切换到d分支，等同于以上2个步骤
++ git checkout -b <分支名称>  //创建分支并直接切换到分支，等同于以上2个步骤
 + git checkout master  //从分支切换回master中去。
 + git merge <分支名称>  //在master路径的前提下，合并分支
 
